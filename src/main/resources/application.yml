@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:newdb
+    username: username
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+
+fileRepositoryFolder: C:\Users\antho\OneDrive\Desktop\java\fileRepository
+
+
+
